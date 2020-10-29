@@ -19,7 +19,7 @@ How to use :
                 beginColor: "F06744",
                 endColor: "E26F2C",
                 titleColor: "FFFFFF",
-                tmn_code: "DMSPRO01",
+                tmn_code: "xxxxxx",
               );
 
 Result: 
@@ -43,14 +43,14 @@ Using product mode:
 
 ** In Android ** :
  
-     > <activity
-            android:name="wao.flutter.application.project.vnpay.ResultActivity" android:screenOrientation="portrait">
+     > <activity android:name="wao.flutter.application.project.vnpay.ResultActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.VIEW"/>
                 <category android:name="android.intent.category.BROWSABLE"/>
                 <category android:name="android.intent.category.DEFAULT"/>
-                <data android:scheme="sampleapp"/>
-            </intent-filter> </activity>
+                <data android:scheme="retailpro"/>
+            </intent-filter>
+        </activity>
     
  Add these line to Manifest. 
  
